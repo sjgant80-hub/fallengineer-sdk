@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallengineer-sdk",
+  "version": "1.0.0",
+  "description": "fallengineer SDK · sovereign single-file library extracted from fallengineer/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["fallengineer", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallengineer-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/fallengineer-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
